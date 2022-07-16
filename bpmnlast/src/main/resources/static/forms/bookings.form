@@ -1,0 +1,15 @@
+{
+  "type": "default",
+  "components": [
+    {
+      "key": "bookings",
+      "label": "Booking",
+      "type": "textfield",
+      "description": "Did you make a booking?",
+      "validate": {
+        "required": true,
+        "pattern": "yes|no"
+      }
+    }
+  ]
+}

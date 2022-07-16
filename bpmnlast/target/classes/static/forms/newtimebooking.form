@@ -1,0 +1,15 @@
+{
+  "type": "default",
+  "components": [
+    {
+      "key": "newtimebooking",
+      "label": "New time Booking",
+      "type": "textfield",
+      "description": "Proceed with new booking?",
+      "validate": {
+        "pattern": "yes|no",
+        "required": true
+      }
+    }
+  ]
+}

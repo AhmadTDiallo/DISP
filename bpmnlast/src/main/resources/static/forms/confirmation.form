@@ -1,0 +1,15 @@
+{
+  "type": "default",
+  "components": [
+    {
+      "key": "confirmation",
+      "label": "Confirmation",
+      "type": "textfield",
+      "description": "Confirm this booking?",
+      "validate": {
+        "required": true,
+        "pattern": "yes|no"
+      }
+    }
+  ]
+}
